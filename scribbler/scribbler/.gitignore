@@ -1,0 +1,35 @@
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+
+# Node modules (si decides usar npm en el futuro)
+node_modules/
+npm-debug.log*
+
+# Archivos de backup
+*.backup
+backup/
+
+# Archivos de Mac
+__MACOSX/
+
+# Otros
+.env
+

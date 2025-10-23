@@ -1,0 +1,127 @@
+Gustavo Valmaña Villalonga
+Ingeniero de software
+
+Quintana Roo, Yuc.
++529341001693
+
+Ingeniero informático graduado en la Universidad Tecnológica de La Habana apasionado del desarrollo de soluciones informáticas. Le gustan las buenas prácticas de la ingeniería de software, principios SOLID, patrones de diseño y del trabajo organizado y en equipo. Es entusiasta, comunicativo y siempre con deseos de aprender del trabajo y de los nuevos retos.
+
+
+INFORMACIÓN PERSONAL
+  Address: Calle Lluvia Condominio Sosta 22, Int 202, Quintana Roo, Yuc., 77500
+  Date of birth: 20/09/1988 Municipio Guanabacoa, Ciudad de La Habana
+  Nationality: Cubano/a
+  Driving License: 
+  Hobbies: Ejercicio físico, tocar guitarra, lectura sobre tecnologías.
+
+PERFILES REDES SOCIALES
+  * Github: https://github.com/gvalmana
+  * Linkedin: https://www.linkedin.com/in/gustavo-valma%C3%B1a-villalonga-9a5b95119/
+  * Youtube: https://www.youtube.com/channel/UCW4bonryh1f6zWCELm8tb0g
+  * Tittwer: https://twitter.com/GustavoValmana
+  * Facebook: https://www.facebook.com/gustavo.valmanavillalonga/
+  * Tiwitch: https://www.twitch.tv/gvalmana
+
+IDIOMAS
+  ★★★★★ Español; Castellano
+  ★★★☆☆ Inglés
+
+COMPETENCIAS
+  ★★★★☆ PHP
+  ★★★★☆ Laravel
+  ★★★★☆ Yii Framework
+  ★★★★☆ Python
+  ★★★★☆ FastAPI
+  ★★★★☆ Django
+  ★★★★☆ SCRUM
+  ★★★★☆ PPO
+  ★★★★☆ Principios SOLID
+  ★★★★☆ MySQL
+  ★★★☆☆ PostgreSQL
+  ★★★☆☆ MongoDB
+  ★★☆☆☆ Node.js
+  ★★☆☆☆ jQuery
+  ★★★☆☆ JavaScript
+  ★★★☆☆ HTML & CSS
+  ★★★☆☆ Java
+  ★★★☆☆ Boostrap
+  ★★★☆☆ Spring Boots
+  ★★★☆☆ Spring Cloud
+  ★★★☆☆ Git
+  ★★★☆☆ Docker
+  ★★☆☆☆ AWS
+  ★★☆☆☆ DevOps
+  ★★☆☆☆ C#
+
+EXPERIENCIA LABORAL
+  * noviembre 2022 – Presente
+    Líder de desarrollo backend en Vixi Dev, México, Cancún
+      Lider del equipo de desarrollo backend y desarrollador backend en Laravel 8 con PHP 8.1. Desarrollo de aplicaciones backend para el intercambio de cryptomonedas y servicios P2P, integración de API de proveedores de wallets como Fireblocks, Binance Exchange. Implementación de workers de procesos backgrounds, colas de procesos, notificaciones mediante websockets con Pusher, integración de API como DHL, Alquimia, Paycaddy y Samsub para los procesos KYT y KYC. Implementación de servidor de autenticación y proveedor de identidad OAuth2.0 con Laravel. Supervisando a 8 personas a mi cargo.
+
+  * mayo 2022 – noviembre 2022
+    Desarrollador Backend en T2MC Vahala Parners, España, Madrid
+      Desarrollo backend en plataformas de trading algorítmico con  Django, FastAPI usando Python como lenguaje de desarrollo, implementación de canales websockets para la comunicación en tiempo real, integración de Stripe como plataforma de pagos y con Kraken Exchange como broker de intercambio de criptos y diseño de proyecto de trading con Metatrader4.
+
+  * enero 2022 – mayo 2022
+    Ingeniero de software en ALIMATIC, Cuba, La Habana
+      Desarrollo de aplicaciones web con PHP Laravel 7 y VueJS.
+
+  * enero 2019 – diciembre 2021
+    Ingeniero de software en Grupo Empresarial del MINSAP, Cuba, La Habana
+      Desarrollador de software e infraestructura de las TIC para el flujo informático del sistema empresarial.
+
+  * enero 2018 – diciembre 2018
+    Administrador de Sistemas en Empresa Cubana de la Sal, La Habana
+      Administrador de sistemas y redes informáticas. Desarrollo del portal web de la entidad y de la intranet nacional de la empresa.
+
+  * enero 2017 – diciembre 2017
+    Administrador de Sistemas en ALIMATIC, Cuba, La Habana
+      Administrador de redes informáticas e infraestructuras. Analista de software.
+
+  * septiembre 2007 – diciembre 2016
+    Ténico en Informática en Facultad Preparatoria de la UCMH, Cuba, Habana del Este
+      Desarrollo de soluciones informáticas de poca y mediana complejidad con tecnologías webs como PHP, HTML, CSS y JavaScript
+
+
+FORMACIÓN
+  * septiembre 2014 – diciembre 2020
+    Universidad Tecnológica de La Habana, La Habana Nivel Superior
+  * septiembre 2004 – julio 2007
+    Instituto Politécnico Mártires de Chile, Habana del Este Bachiller y Técnico en Ciencias Informátcas
+
+CURSOS
+  * 
+    Gestión de sistemas de seguridad informática, Empresa de aplicaciones informáticas Desoft.
+  * 
+    Visual Basic básico, Empresa de aplicaciones informáticas Desoft.
+  * 
+    C# Básico, Empresa de aplicaciones informáticas Desoft.
+
+REFERENCIAS
+  * Alejandro Gallardo Salas de 
+    alegs0501@gmail.com
+    +34 634 01 58 06
+  * Jonathan Grinberg de 
+    +52 9981983607
+
+HABILIDADES PROFESIONALES
+  * Ingienería de software, , 
+
+    Conocimientos avanzados de ingienería de software y arquitecturas de sistemas.
+  * Metodologías y marcos de trabajo, , 
+
+    
+  Conocimientos de metodologías de desarrollo tradicionales como RUP y Scrum.
+  Organizado, minucioso en los detalles y activo en el trabajo en equipo.
+  Facilidades de comunicación y compartir conocimientos.
+
+  * Arquitecturas y patrones de diseño, , 
+
+    
+  Amplios conocimientos teoricos de arquitecturas de microservicios, microfrontends, arquitecturas orientadas a servicios, arquitectura hexagonal y patrones de diseño.
+  Desarrollo de sistemas backend con API Restfull cumpliendo con principios SOLID y los niveles de madures de Ridcharson.
+
+PUBLICACIONES
+  * Trabajo de diploma Infraestructura de microservicios para la informatización de entidades cubanas., La Habana, junio 2020
+
+    Tesis de grado para la obtención del título de Ingeniero Informático desarrollda con Spring Cloud, Spring Boots y Keycloak Server

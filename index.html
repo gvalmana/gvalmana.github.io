@@ -55,6 +55,20 @@
             ><i class="fa fa-linkedin"></i> LinkedIn</a
           >
         </li>
+        <li class="menu__item">
+          <a
+            href="#"
+            onclick="downloadPDF(); return false;"
+            class="link link--dark"
+            style="
+              background: var(--primary-color);
+              color: white;
+              padding: 0.5rem 1rem;
+              border-radius: 4px;
+            "
+            ><i class="fa fa-download"></i> Descargar CV</a
+          >
+        </li>
       </ul>
     </nav>
     <div class="hero">
@@ -76,6 +90,26 @@
       <p class="hero__description">
         Ingeniero de Software | Backend Developer | Líder de Desarrollo
       </p>
+      <button
+        onclick="downloadPDF()"
+        class="button--primary"
+        style="
+          margin-top: 1.5rem;
+          padding: 0.8rem 2rem;
+          font-size: 1rem;
+          cursor: pointer;
+          background: var(--primary-color);
+          color: white;
+          border: none;
+          border-radius: 4px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          transition: all 0.3s ease;
+        "
+        onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 12px rgba(0,0,0,0.15)'"
+        onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 6px rgba(0,0,0,0.1)'"
+      >
+        <i class="fa fa-download"></i> Descargar CV en PDF
+      </button>
     </div>
     <div class="hero__terminal">
       <pre>
@@ -513,6 +547,48 @@ $ echo "Contacto: +52 934 100 1693"</code>
         ></a>
       </p>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
     <script src="scribbler.js"></script>
+    <script>
+      function downloadPDF() {
+        // Ocultar elementos que no queremos en el PDF
+        const nav = document.querySelector("nav");
+        const footer = document.querySelector(".footer");
+        const originalNavDisplay = nav.style.display;
+        const originalFooterDisplay = footer.style.display;
+
+        nav.style.display = "none";
+
+        // Configuración del PDF
+        const element = document.body;
+        const opt = {
+          margin: [0.5, 0.5, 0.5, 0.5],
+          filename: "Gustavo_Valmana_CV.pdf",
+          image: { type: "jpeg", quality: 0.98 },
+          html2canvas: {
+            scale: 2,
+            useCORS: true,
+            logging: false,
+          },
+          jsPDF: {
+            unit: "in",
+            format: "letter",
+            orientation: "portrait",
+          },
+          pagebreak: { mode: ["avoid-all", "css", "legacy"] },
+        };
+
+        // Generar PDF
+        html2pdf()
+          .set(opt)
+          .from(element)
+          .save()
+          .then(() => {
+            // Restaurar elementos ocultos
+            nav.style.display = originalNavDisplay;
+            footer.style.display = originalFooterDisplay;
+          });
+      }
+    </script>
   </body>
 </html>

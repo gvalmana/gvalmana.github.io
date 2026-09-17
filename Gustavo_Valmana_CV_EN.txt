@@ -1,0 +1,63 @@
+Gustavo Valmana Villalonga
+Senior Software Engineer | Backend & Distributed Systems | Team Leader
+
+Cancun, Quintana Roo, Mexico
++52 934 100 1693
+
+PROFESSIONAL PROFILE
+Senior Software Engineer and technical leader with 15+ years of experience designing and delivering backend platforms, APIs, and distributed systems. Combines team leadership, architectural thinking, and hands-on execution to build maintainable, observable, and resilient solutions.
+
+TECHNICAL LEADERSHIP AND IMPACT
+- Led an 8-person backend team through mentoring, technical reviews, prioritization, and delivery follow-up.
+- Designed and evolved distributed accounting systems covering parametrization, reports, balances, journal entries, and data processes.
+- Modernized services and pipelines through migrations from monoliths, Serverless, and legacy versions to event-driven architectures and AWS CDK/CDKless.
+- Implemented resilient flows with Kafka, SNS/SQS, idempotency, retries, backoff, reprocessing, and out-of-order event handling.
+- Improved observability and operational support with alerts, logs, CloudWatch, and recovery tooling.
+
+TECHNICAL SKILLS
+- Backend: PHP, Laravel, Python, FastAPI, Django, Node.js, TypeScript, Express.
+- Architecture: microservices, hexagonal architecture, DDD, REST APIs, SOLID, Clean Code, design patterns.
+- Cloud and infrastructure: AWS Lambda, API Gateway, CDK/CDKless, CloudFormation, CloudWatch, SQS, SNS, S3, DynamoDB, EC2, and RDS.
+- Data and messaging: MySQL, PostgreSQL, MongoDB, ClickHouse, Redis, Kafka, RabbitMQ, ETL, and data migrations.
+- Reliability and operations: idempotency, retries, backoff, reprocessing, feature flags, observability, and operational support.
+- Delivery and quality: PHPUnit, Jest, unit and integration testing, CI/CD, Docker, Git, Scrum, and technical mentoring.
+
+SELECTED PROJECTS
+- Distributed accounting platforms: accounting parametrization, API and data migrations, event processing, reporting, and AWS-based operational support.
+- Modernization and architecture: PHP/Python microservices, REST APIs, Kafka, CDK/CDKless, ETL, soft delete, and idempotency.
+- AI and developer tooling: public TypeScript and Python projects involving MCP, LangGraph, voice assistants, reporting chat, and multi-agent delivery, review, and QA workflows.
+- Engineering foundations: public projects involving DDD, Clean Code, SOLID, PHPUnit/Jest, CI/CD, Spring Boot, Keycloak, and Vue.
+- Public technical activity since 2020: Java microservices and thesis work with Keycloak; Vue client applications; PHP/Python APIs and microservices; Kafka batch events; Spring/JPA; Docker, CI/CD, testing, TypeScript, DDD, MCP, LangGraph, voice assistants, and multi-agent systems.
+
+PROFESSIONAL EXPERIENCE
+November 2022 - Present | Vixi Dev, Cancun, Mexico
+Backend Development Lead
+- Led an 8-person backend team, including mentoring, technical reviews, and delivery follow-up.
+- Built Laravel 8 and PHP 8.1 backends for cryptocurrency exchange and P2P platforms.
+- Integrated Fireblocks, Binance Exchange, DHL, Alquimia, Paycaddy, and Samsub for payments, logistics, KYT, and KYC processes.
+- Implemented workers, queues, real-time notifications with Pusher, and a Laravel OAuth2.0 identity provider.
+
+May 2022 - November 2022 | T2MC Vahala Partners, Madrid, Spain
+Backend Developer
+- Built algorithmic trading platforms with Django and FastAPI on Python, WebSockets, Stripe, Kraken Exchange, and MetaTrader 4.
+
+January 2022 - May 2022 | ALIMATIC, Havana, Cuba
+Software Engineer
+- Developed web applications with PHP, Laravel 7, and Vue.js.
+
+January 2019 - December 2021 | Grupo Empresarial MINSAP, Havana, Cuba
+Software Engineer
+- Developed software and IT infrastructure for enterprise information workflows.
+
+EDUCATION
+- BSc in Computer Engineering, Universidad Tecnologica de La Habana, 2014-2020.
+- Thesis: microservices infrastructure for Cuban entities using Spring Cloud, Spring Boot, and Keycloak Server.
+
+LANGUAGES
+- Spanish: native.
+- English: intermediate technical and professional communication.
+
+PUBLIC TECHNICAL ACTIVITY
+- GitHub: https://github.com/gvalmana
+- LinkedIn: https://www.linkedin.com/in/gustavo-valma%C3%B1a-villalonga-9a5b95119/
+- Public work since 2020 includes Java microservices thesis work, Vue client applications, PHP/Python APIs and microservices, Kafka, testing, CI/CD, DDD, TypeScript, MCP, and agentic systems.

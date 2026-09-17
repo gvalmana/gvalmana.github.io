@@ -25,7 +25,7 @@ COMPETENCIAS TÉCNICAS
 
 PROYECTOS DESTACADOS
 - Plataformas contables distribuidas: parametrización contable, migraciones de APIs y datos, procesamiento de eventos, reportes y soporte operativo sobre AWS.
-- Modernización y arquitectura: microservicios PHP/Python, APIs REST, Kafka, CDK/CDKless, ETL, soft delete e idempotencia.
+- Modernización y arquitectura: microservicios PHP/Python, APIs REST, mensajería asíncrona, infraestructura cloud, cargas históricas, eliminación lógica e idempotencia.
 - IA y herramientas de desarrollo: proyectos públicos de TypeScript y Python sobre MCP, LangGraph, asistentes de voz, chat para reportes y workflows multiagente para entrega, revisión y QA.
 - Fundamentos de ingeniería: proyectos públicos de DDD, Clean Code, SOLID, PHPUnit/Jest, CI/CD, Spring Boot, Keycloak y Vue.
 - Trayectoria pública desde 2020: microservicios Java y tesis con Keycloak; clientes Vue; APIs y microservicios PHP/Python; Kafka y eventos por batch; Spring/JPA; Docker, CI/CD, testing, TypeScript, DDD, MCP, LangGraph, asistentes de voz y sistemas multiagente.
@@ -33,11 +33,11 @@ PROYECTOS DESTACADOS
 EXPERIENCIA LABORAL
 Marzo 2024 - Presente | Alegra, Remoto
 Backend Developer
-- Desarrollo backend dentro de un equipo de Ledger para plataformas contables distribuidas y parametrización contable.
-- Participación en la migración de Ledger Entries V2 a V3, incluyendo ETL, backfill, reconciliación y soft delete.
-- Implementación de flujos asíncronos con Kafka, SQS, ClickHouse y MySQL para validar, reconciliar y publicar eventos contables.
+- Desarrollo backend dentro de un equipo de plataformas contables distribuidas y parametrización contable.
+- Participación en la migración de una plataforma contable entre versiones, incluyendo cargas históricas, reconciliación y eliminación lógica.
+- Implementación de flujos asíncronos con mensajería y bases de datos analíticas y relacionales para validar, reconciliar y publicar eventos contables.
 - Desarrollo de reprocesamiento batch e individual mediante endpoints protegidos en API Gateway.
-- Mejora de confiabilidad con idempotencia, eventos fuera de orden, máximo de tres reintentos y observabilidad en CloudWatch.
+- Mejora de confiabilidad con idempotencia, eventos fuera de orden, políticas de reintento controladas y observabilidad cloud.
 
 Noviembre 2022 - Presente | Vixi Dev, Cancún, México
 Líder de Desarrollo Backend

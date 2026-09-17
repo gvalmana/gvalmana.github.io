@@ -1,16 +1,18 @@
 /* css variables*/
 :root {
   --primary-color: #432E30;
-  --primary-color-light: #8E7474;
-  --accent-color: #FE6A6B;
-  --accent-color-light: #FFE4E4;
-  --accent-color-dark: #B94B4C;
-  --white-color: #FAFBFC;
-  --light-gray-color: #C6CBD1;
-  --medium-gray-color: #959DA5;
-  --dark-gray-color: #444D56; 
-  --bg-color: #F8F8FA;
-  --code-bg-color: #F0E8E8;
+  --primary-color-light: #6F5A5D;
+  --accent-color: #B94B4C;
+  --accent-color-light: #F8E7E5;
+  --accent-color-dark: #8F3438;
+  --white-color: #FFFFFF;
+  --light-gray-color: #D8DDE2;
+  --medium-gray-color: #69737D;
+  --dark-gray-color: #26323B;
+  --bg-color: #F6F4F2;
+  --surface-color: #FFFFFF;
+  --code-bg-color: #EDE7E5;
+  --terminal-color: #1F252B;
 }
 
 /* normalized */
@@ -18,17 +20,26 @@ html, body {
   padding: 0;
   margin: 0;
   font-family: 'Nunito Sans', sans-serif;
-  background-color: white;
+  background-color: var(--surface-color);
+  color: var(--dark-gray-color);
+  line-height: 1.6;
 }
 
 p {
-  font-weight: 300;
-  color: #4A4A4A;
+  font-weight: 400;
+  color: var(--dark-gray-color);
 }
 
 a, a:hover {
   text-decoration: none;
   color: var(--primary-color);
+}
+
+a:focus-visible,
+button:focus-visible,
+.toggle:focus-visible {
+  outline: 3px solid var(--accent-color);
+  outline-offset: 3px;
 }
 
 hr {
@@ -135,6 +146,11 @@ hr {
   transform: translate3D(0, -3px, 0);
 }
 
+.button--primary:focus-visible {
+  color: var(--white-color);
+  box-shadow: 0 0 0 4px var(--accent-color-light);
+}
+
 .button--primary:hover::after {
   transform: rotate(90deg);
 }
@@ -166,6 +182,11 @@ hr {
 
 .link--light {
   color: var(--accent-color);
+}
+
+.link--light:hover,
+.link--light:focus-visible {
+  color: var(--accent-color-light);
 }
 
 /* menu */
@@ -292,7 +313,7 @@ table td:first-child {
 /* layout */
 .wrapper {
   margin: 0 auto;
-  width: 70%;
+  width: min(70%, 980px);
 }
 
 .footer {
@@ -300,6 +321,12 @@ table td:first-child {
   background-color: var(--primary-color);
   padding: 2rem;
   color: white;
+}
+
+@media screen and (max-width: 750px) {
+  .wrapper {
+    width: min(88%, 680px);
+  }
 }
 
 @keyframes fadeUp {

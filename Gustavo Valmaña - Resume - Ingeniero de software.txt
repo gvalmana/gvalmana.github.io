@@ -26,7 +26,7 @@ COMPETENCIAS TÉCNICAS
 PROYECTOS DESTACADOS
 - Plataformas contables distribuidas: parametrización contable, migraciones de APIs y datos, procesamiento de eventos, reportes y soporte operativo sobre AWS.
 - Modernización y arquitectura: microservicios PHP/Python, APIs REST, mensajería asíncrona, infraestructura cloud, cargas históricas, eliminación lógica e idempotencia.
-- IA y herramientas de desarrollo: proyectos públicos de TypeScript y Python sobre MCP, LangGraph, asistentes de voz, chat para reportes y workflows multiagente para entrega, revisión y QA.
+- Agentes de IA y automatización: creación de un toolkit público de orquestación multiagente con equipos especializados, skills compartidas, comandos de entrega, revisión, QA, seguridad, mantenimiento y hotfix, además de adaptadores para varias herramientas de desarrollo.
 - Fundamentos de ingeniería: proyectos públicos de DDD, Clean Code, SOLID, PHPUnit/Jest, CI/CD, Spring Boot, Keycloak y Vue.
 - Trayectoria pública desde 2020: microservicios Java y tesis con Keycloak; clientes Vue; APIs y microservicios PHP/Python; Kafka y eventos por batch; Spring/JPA; Docker, CI/CD, testing, TypeScript, DDD, MCP, LangGraph, asistentes de voz y sistemas multiagente.
 

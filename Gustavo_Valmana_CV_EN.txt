@@ -25,7 +25,7 @@ TECHNICAL SKILLS
 SELECTED PROJECTS
 - Distributed accounting platforms: accounting parametrization, API and data migrations, event processing, reporting, and AWS-based operational support.
 - Modernization and architecture: PHP/Python microservices, REST APIs, asynchronous messaging, cloud infrastructure, historical data loads, logical deletion, and idempotency.
-- AI and developer tooling: public TypeScript and Python projects involving MCP, LangGraph, voice assistants, reporting chat, and multi-agent delivery, review, and QA workflows.
+- AI agents and automation: created a public multi-agent orchestration toolkit with specialized teams, shared skills, delivery, review, QA, security, maintenance, and hotfix commands, plus adapters for multiple developer tools.
 - Engineering foundations: public projects involving DDD, Clean Code, SOLID, PHPUnit/Jest, CI/CD, Spring Boot, Keycloak, and Vue.
 
 PROFESSIONAL EXPERIENCE

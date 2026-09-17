@@ -1,11 +1,11 @@
 Gustavo Valmaña Villalonga
-Senior Software Engineer | Backend & Distributed Systems | Team Leader
+Backend Developer | Sistemas Distribuidos | Liderazgo Técnico
 
 Cancún, Quintana Roo, México
 +52 934 100 1693
 
 PERFIL PROFESIONAL
-Senior Software Engineer y líder técnico con más de 15 años de experiencia diseñando y entregando plataformas backend, APIs y sistemas distribuidos. Combino liderazgo de equipos, visión de arquitectura y ejecución hands-on para construir soluciones mantenibles, observables y resilientes.
+Backend Developer con más de 15 años de experiencia diseñando y entregando plataformas backend, APIs y sistemas distribuidos. Aporto liderazgo técnico, diseño de arquitectura y ejecución hands-on dentro de equipos de ingeniería.
 
 LIDERAZGO E IMPACTO TÉCNICO
 - Liderazgo de un equipo backend de 8 personas, con mentoring, revisión técnica, priorización y seguimiento de entrega.
@@ -31,6 +31,14 @@ PROYECTOS DESTACADOS
 - Trayectoria pública desde 2020: microservicios Java y tesis con Keycloak; clientes Vue; APIs y microservicios PHP/Python; Kafka y eventos por batch; Spring/JPA; Docker, CI/CD, testing, TypeScript, DDD, MCP, LangGraph, asistentes de voz y sistemas multiagente.
 
 EXPERIENCIA LABORAL
+Marzo 2024 - Presente | Alegra, Remoto
+Backend Developer
+- Desarrollo backend dentro de un equipo de Ledger para plataformas contables distribuidas y parametrización contable.
+- Participación en la migración de Ledger Entries V2 a V3, incluyendo ETL, backfill, reconciliación y soft delete.
+- Implementación de flujos asíncronos con Kafka, SQS, ClickHouse y MySQL para validar, reconciliar y publicar eventos contables.
+- Desarrollo de reprocesamiento batch e individual mediante endpoints protegidos en API Gateway.
+- Mejora de confiabilidad con idempotencia, eventos fuera de orden, máximo de tres reintentos y observabilidad en CloudWatch.
+
 Noviembre 2022 - Presente | Vixi Dev, Cancún, México
 Líder de Desarrollo Backend
 - Liderazgo de equipo backend de 8 personas, incluyendo mentoring, revisión técnica y seguimiento de entrega.

@@ -23,6 +23,9 @@
       .card strong { color: #2c3e50; }
       .role { display: flex; justify-content: space-between; gap: 12px; }
       .date { color: #666; font-style: italic; white-space: nowrap; }
+      .course-list { columns: 3; column-gap: 20px; font-size: 7.5pt; }
+      .course-list li { break-inside: avoid; margin-bottom: 1px; }
+      .soft-skills-text { font-size: 7.5pt; line-height: 1.25; }
       @page { size: A4; margin: 8mm; }
       @media print { .container { padding: 4mm; } }
     </style>
@@ -68,8 +71,8 @@
         <h2>Selected Projects</h2>
         <ul>
           <li><strong>Distributed accounting platforms:</strong> accounting parametrization, API and data migrations, event processing, reporting, and AWS-based operational support.</li>
-          <li><strong>Modernization and architecture:</strong> PHP/Python microservices, REST APIs, Kafka, CDK/CDKless, ETL, soft delete, and idempotency.</li>
-          <li><strong>AI and developer tooling:</strong> public TypeScript and Python projects involving MCP, LangGraph, voice assistants, reporting chat, and multi-agent delivery, review, and QA workflows.</li>
+          <li><strong>Modernization and architecture:</strong> PHP/Python microservices, REST APIs, asynchronous messaging, cloud infrastructure, historical data loads, logical deletion, and idempotency.</li>
+          <li><strong>AI agents and automation:</strong> public multi-agent orchestration toolkit with specialized teams, shared skills, delivery, review, QA, security, maintenance, and hotfix commands, plus adapters for multiple developer tools.</li>
           <li><strong>Engineering foundations:</strong> public projects involving DDD, Clean Code, SOLID, PHPUnit/Jest, CI/CD, Spring Boot, Keycloak, and Vue.</li>
         </ul>
       </section>
@@ -78,11 +81,11 @@
         <h2>Professional Experience</h2>
         <div class="role"><div><h3>Backend Developer | Alegra, Remote</h3></div><div class="date">Mar 2024 - Present</div></div>
         <ul>
-          <li>Developed backend services within a Ledger team for distributed accounting platforms and accounting parametrization.</li>
-          <li>Contributed to the migration from Ledger Entries V2 to V3, including ETL, backfill, reconciliation, and soft delete.</li>
-          <li>Implemented asynchronous flows with Kafka, SQS, ClickHouse, and MySQL to validate, reconcile, and publish accounting events.</li>
+          <li>Developed backend services within an accounting platforms team for distributed accounting systems and accounting parametrization.</li>
+          <li>Contributed to the migration between versions of an accounting platform, including historical data loads, reconciliation, and logical deletion.</li>
+          <li>Implemented asynchronous flows with messaging and analytical and relational databases to validate, reconcile, and publish accounting events.</li>
           <li>Built batch and individual reprocessing endpoints through protected API Gateway routes.</li>
-          <li>Improved reliability through idempotency, out-of-order event handling, a three-retry limit, and CloudWatch observability.</li>
+          <li>Improved reliability through idempotency, out-of-order event handling, controlled retry policies, and cloud observability.</li>
         </ul>
         <div class="role"><div><h3>Backend Development Lead | Vixi Dev, Cancun, Mexico</h3></div><div class="date">Nov 2022 - Present</div></div>
         <ul>
@@ -97,6 +100,28 @@
         <ul><li>Developed web applications with PHP, Laravel 7, and Vue.js.</li></ul>
         <div class="role"><div><h3>Software Engineer | Grupo Empresarial MINSAP, Havana, Cuba</h3></div><div class="date">Jan 2019 - Dec 2021</div></div>
         <ul><li>Developed software and IT infrastructure for enterprise information workflows.</li></ul>
+      </section>
+
+      <section class="section">
+        <h2>Professional Strengths</h2>
+        <p class="soft-skills-text">Technical leadership and mentoring · Clear communication with technical and business stakeholders · Collaboration and consensus building · Analytical thinking and problem solving · Impact- and risk-based prioritization · Adaptability and continuous learning · Incident management and root-cause analysis · Direct, respectful feedback · Delegation and effective work distribution · Documentation and asynchronous communication · Knowledge management · Scope and expectation negotiation · Continuous improvement of engineering practices.</p>
+      </section>
+
+      <section class="section">
+        <h2>Courses and Training</h2>
+        <ul class="course-list">
+          <li>Vue.js: From Zero to Expert - Udemy</li>
+          <li>AWS Certified Solutions Architect Associate - Udemy</li>
+          <li>Docker Essentials - Udemy</li>
+          <li>Build AI Agents with MCP - Model Context Protocol - TS/PY - Udemy</li>
+          <li>Unit Testing for TypeScript &amp; Node.js Developers with Jest - Udemy</li>
+          <li>Serverless in Spanish with AWS and Serverless Framework - Udemy</li>
+          <li>AWS &amp; TypeScript Masterclass - CDK, Serverless, React - Udemy</li>
+          <li>TypeScript for Developers - Udemy</li>
+          <li>AWS CDK: Build a Serverless REST API with TypeScript &amp; NoSQL - Udemy</li>
+          <li>Scrum Developer: Key Strategy and CertiProf Certification - Udemy</li>
+          <li>AWS Lambda/Serverless with Node.js - Udemy</li>
+        </ul>
       </section>
 
       <section class="section">

@@ -23,21 +23,36 @@ COMPETENCIAS TÉCNICAS
 - Calidad y entrega: PHPUnit, Jest, testing unitario e integración, CI/CD, Docker, Git, Scrum y mentoring técnico.
 - Frontend y complementos: JavaScript, Vue.js, Angular, React, HTML, CSS, Bootstrap y jQuery.
 
+HABILIDADES BLANDAS
+- Liderazgo técnico y mentoring.
+- Comunicación clara con perfiles técnicos y de negocio.
+- Colaboración y construcción de consenso.
+- Pensamiento analítico y resolución de problemas.
+- Priorización basada en impacto y riesgo.
+- Adaptabilidad y aprendizaje continuo.
+- Gestión de incidentes y análisis de causa raíz.
+- Feedback directo, respetuoso y orientado a la mejora.
+- Delegación y distribución efectiva del trabajo.
+- Documentación y comunicación asíncrona.
+- Gestión del conocimiento y reducción de dependencias individuales.
+- Negociación de alcance y expectativas.
+- Mejora continua de procesos y prácticas de ingeniería.
+
 PROYECTOS DESTACADOS
 - Plataformas contables distribuidas: parametrización contable, migraciones de APIs y datos, procesamiento de eventos, reportes y soporte operativo sobre AWS.
-- Modernización y arquitectura: microservicios PHP/Python, APIs REST, Kafka, CDK/CDKless, ETL, soft delete e idempotencia.
-- IA y herramientas de desarrollo: proyectos públicos de TypeScript y Python sobre MCP, LangGraph, asistentes de voz, chat para reportes y workflows multiagente para entrega, revisión y QA.
+- Modernización y arquitectura: microservicios PHP/Python, APIs REST, mensajería asíncrona, infraestructura cloud, cargas históricas, eliminación lógica e idempotencia.
+- Agentes de IA y automatización: creación de un toolkit público de orquestación multiagente con equipos especializados, skills compartidas, comandos de entrega, revisión, QA, seguridad, mantenimiento y hotfix, además de adaptadores para varias herramientas de desarrollo.
 - Fundamentos de ingeniería: proyectos públicos de DDD, Clean Code, SOLID, PHPUnit/Jest, CI/CD, Spring Boot, Keycloak y Vue.
 - Trayectoria pública desde 2020: microservicios Java y tesis con Keycloak; clientes Vue; APIs y microservicios PHP/Python; Kafka y eventos por batch; Spring/JPA; Docker, CI/CD, testing, TypeScript, DDD, MCP, LangGraph, asistentes de voz y sistemas multiagente.
 
 EXPERIENCIA LABORAL
 Marzo 2024 - Presente | Alegra, Remoto
 Backend Developer
-- Desarrollo backend dentro de un equipo de Ledger para plataformas contables distribuidas y parametrización contable.
-- Participación en la migración de Ledger Entries V2 a V3, incluyendo ETL, backfill, reconciliación y soft delete.
-- Implementación de flujos asíncronos con Kafka, SQS, ClickHouse y MySQL para validar, reconciliar y publicar eventos contables.
+- Desarrollo backend dentro de un equipo de plataformas contables distribuidas y parametrización contable.
+- Participación en la migración de una plataforma contable entre versiones, incluyendo cargas históricas, reconciliación y eliminación lógica.
+- Implementación de flujos asíncronos con mensajería y bases de datos analíticas y relacionales para validar, reconciliar y publicar eventos contables.
 - Desarrollo de reprocesamiento batch e individual mediante endpoints protegidos en API Gateway.
-- Mejora de confiabilidad con idempotencia, eventos fuera de orden, máximo de tres reintentos y observabilidad en CloudWatch.
+- Mejora de confiabilidad con idempotencia, eventos fuera de orden, políticas de reintento controladas y observabilidad cloud.
 
 Noviembre 2022 - Presente | Vixi Dev, Cancún, México
 Líder de Desarrollo Backend
@@ -79,6 +94,19 @@ FORMACIÓN
 IDIOMAS
 - Español: nativo.
 - Inglés: intermedio, con comprensión técnica y comunicación profesional.
+
+CURSOS Y FORMACIÓN COMPLEMENTARIA
+- Vue.js: De cero a experto - Udemy.
+- AWS Certified Solutions Architect Associate - Udemy.
+- Docker Essentials - Udemy.
+- Build AI Agents with MCP - Model Context Protocol - TS/PY - Udemy.
+- Unit Testing for TypeScript & Node.js Developers with Jest - Udemy.
+- Serverless en Español con AWS y Serverless Framework - Udemy.
+- AWS & TypeScript Masterclass - CDK, Serverless, React - Udemy.
+- TypeScript for Developers - Udemy.
+- AWS CDK: Build a Serverless REST API with TypeScript & NoSQL - Udemy.
+- Scrum Developer: Estrategia Clave y Certificación CertiProf - Udemy.
+- AWS Lambda/Serverless con Node.js - Udemy.
 
 PROYECTOS PÚBLICOS Y ACTIVIDAD TÉCNICA
 - GitHub: https://github.com/gvalmana

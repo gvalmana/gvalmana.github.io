@@ -22,20 +22,35 @@ TECHNICAL SKILLS
 - Reliability and operations: idempotency, retries, backoff, reprocessing, feature flags, observability, and operational support.
 - Delivery and quality: PHPUnit, Jest, unit and integration testing, CI/CD, Docker, Git, Scrum, and technical mentoring.
 
+PROFESSIONAL STRENGTHS
+- Technical leadership and mentoring.
+- Clear communication with technical and business stakeholders.
+- Collaboration and consensus building.
+- Analytical thinking and problem solving.
+- Impact- and risk-based prioritization.
+- Adaptability and continuous learning.
+- Incident management and root-cause analysis.
+- Direct, respectful, improvement-oriented feedback.
+- Delegation and effective work distribution.
+- Documentation and asynchronous communication.
+- Knowledge management and reduced individual dependencies.
+- Scope and expectation negotiation.
+- Continuous improvement of engineering practices.
+
 SELECTED PROJECTS
 - Distributed accounting platforms: accounting parametrization, API and data migrations, event processing, reporting, and AWS-based operational support.
-- Modernization and architecture: PHP/Python microservices, REST APIs, Kafka, CDK/CDKless, ETL, soft delete, and idempotency.
-- AI and developer tooling: public TypeScript and Python projects involving MCP, LangGraph, voice assistants, reporting chat, and multi-agent delivery, review, and QA workflows.
+- Modernization and architecture: PHP/Python microservices, REST APIs, asynchronous messaging, cloud infrastructure, historical data loads, logical deletion, and idempotency.
+- AI agents and automation: created a public multi-agent orchestration toolkit with specialized teams, shared skills, delivery, review, QA, security, maintenance, and hotfix commands, plus adapters for multiple developer tools.
 - Engineering foundations: public projects involving DDD, Clean Code, SOLID, PHPUnit/Jest, CI/CD, Spring Boot, Keycloak, and Vue.
 
 PROFESSIONAL EXPERIENCE
 March 2024 - Present | Alegra, Remote
 Backend Developer
-- Developed backend services within a Ledger team for distributed accounting platforms and accounting parametrization.
-- Contributed to the migration from Ledger Entries V2 to V3, including ETL, backfill, reconciliation, and soft delete.
-- Implemented asynchronous flows with Kafka, SQS, ClickHouse, and MySQL to validate, reconcile, and publish accounting events.
+- Developed backend services within an accounting platforms team for distributed accounting systems and accounting parametrization.
+- Contributed to the migration between versions of an accounting platform, including historical data loads, reconciliation, and logical deletion.
+- Implemented asynchronous flows with messaging and analytical and relational databases to validate, reconcile, and publish accounting events.
 - Built batch and individual reprocessing endpoints through protected API Gateway routes.
-- Improved reliability through idempotency, out-of-order event handling, a three-retry limit, and CloudWatch observability.
+- Improved reliability through idempotency, out-of-order event handling, controlled retry policies, and cloud observability.
 
 November 2022 - Present | Vixi Dev, Cancun, Mexico
 Backend Development Lead
@@ -63,6 +78,19 @@ EDUCATION
 LANGUAGES
 - Spanish: native.
 - English: intermediate technical and professional communication.
+
+COURSES AND COMPLEMENTARY TRAINING
+- Vue.js: From Zero to Expert - Udemy.
+- AWS Certified Solutions Architect Associate - Udemy.
+- Docker Essentials - Udemy.
+- Build AI Agents with MCP - Model Context Protocol - TS/PY - Udemy.
+- Unit Testing for TypeScript & Node.js Developers with Jest - Udemy.
+- Serverless in Spanish with AWS and Serverless Framework - Udemy.
+- AWS & TypeScript Masterclass - CDK, Serverless, React - Udemy.
+- TypeScript for Developers - Udemy.
+- AWS CDK: Build a Serverless REST API with TypeScript & NoSQL - Udemy.
+- Scrum Developer: Key Strategy and CertiProf Certification - Udemy.
+- AWS Lambda/Serverless with Node.js - Udemy.
 
 PUBLIC TECHNICAL ACTIVITY
 - GitHub: https://github.com/gvalmana

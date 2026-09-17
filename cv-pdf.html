@@ -22,7 +22,7 @@
       .container {
         max-width: 210mm;
         margin: 0 auto;
-        padding: 8mm;
+        padding: 5mm;
       }
 
       /* Header */
@@ -184,6 +184,35 @@
         margin-left: 20px;
       }
 
+      .course-list {
+        columns: 3;
+        column-gap: 20px;
+        font-size: 6.5pt;
+        line-height: 1.1;
+      }
+
+      .course-list li {
+        break-inside: avoid;
+        margin-bottom: 1px;
+      }
+
+      .soft-skills-text {
+        font-size: 7.5pt;
+        line-height: 1.25;
+      }
+
+      .languages .skills-grid {
+        gap: 5px;
+      }
+
+      .languages .skill-category {
+        padding: 4px;
+      }
+
+      .languages .skill-category p {
+        font-size: 7pt;
+      }
+
       .certifications li {
         margin-bottom: 2px;
         font-size: 8pt;
@@ -207,7 +236,7 @@
 
       @page {
         size: A4;
-        margin: 6mm;
+        margin: 4mm;
       }
     </style>
   </head>
@@ -332,11 +361,11 @@
             <div class="experience-date">Mar 2024 - Presente</div>
           </div>
           <ul>
-            <li>Desarrollo backend dentro de un equipo de Ledger para plataformas contables distribuidas y parametrización contable.</li>
-            <li>Participación en la migración de Ledger Entries V2 a V3, incluyendo ETL, backfill, reconciliación y soft delete.</li>
-            <li>Implementación de flujos asíncronos con Kafka, SQS, ClickHouse y MySQL para validar, reconciliar y publicar eventos contables.</li>
+            <li>Desarrollo backend dentro de un equipo de plataformas contables distribuidas y parametrización contable.</li>
+            <li>Participación en la migración de una plataforma contable entre versiones, incluyendo cargas históricas, reconciliación y eliminación lógica.</li>
+            <li>Implementación de flujos asíncronos con mensajería y bases de datos analíticas y relacionales para validar, reconciliar y publicar eventos contables.</li>
             <li>Desarrollo de reprocesamiento batch e individual mediante endpoints protegidos en API Gateway.</li>
-            <li>Mejora de confiabilidad con idempotencia, eventos fuera de orden, máximo de tres reintentos y observabilidad en CloudWatch.</li>
+            <li>Mejora de confiabilidad con idempotencia, eventos fuera de orden, políticas de reintento controladas y observabilidad cloud.</li>
           </ul>
         </div>
 
@@ -453,11 +482,16 @@
         <h2 class="section-title">Proyectos destacados</h2>
         <ul style="font-size: 10pt; margin-left: 20px">
           <li><strong>Plataformas contables distribuidas:</strong> parametrización contable, migraciones de APIs y datos, procesamiento de eventos, reportes y soporte operativo sobre AWS.</li>
-          <li><strong>Modernización y arquitectura:</strong> microservicios PHP/Python, APIs REST, Kafka, CDK/CDKless, ETL, soft delete e idempotencia.</li>
-          <li><strong>IA y herramientas de desarrollo:</strong> MCP, LangGraph, asistentes de voz, chat para reportes y workflows multiagente para entrega, revisión y QA.</li>
+          <li><strong>Modernización y arquitectura:</strong> microservicios PHP/Python, APIs REST, mensajería asíncrona, infraestructura cloud, cargas históricas, eliminación lógica e idempotencia.</li>
+          <li><strong>Agentes de IA y automatización:</strong> toolkit público de orquestación multiagente con equipos especializados, skills compartidas, comandos de entrega, revisión, QA, seguridad, mantenimiento y hotfix, además de adaptadores para varias herramientas de desarrollo.</li>
           <li><strong>Fundamentos de ingeniería:</strong> DDD, Clean Code, SOLID, PHPUnit/Jest, CI/CD, Spring Boot, Keycloak y Vue.</li>
           <li><strong>Trayectoria pública desde 2020:</strong> microservicios Java y tesis con Keycloak; clientes Vue; APIs y microservicios PHP/Python; Kafka y eventos por batch; Spring/JPA; Docker, CI/CD, testing, TypeScript, DDD, MCP, LangGraph, asistentes de voz y sistemas multiagente.</li>
         </ul>
+      </div>
+
+      <div class="section">
+        <h2 class="section-title">Habilidades blandas</h2>
+        <p class="soft-skills-text">Liderazgo técnico y mentoring · Comunicación clara con perfiles técnicos y de negocio · Colaboración y construcción de consenso · Pensamiento analítico y resolución de problemas · Priorización basada en impacto y riesgo · Adaptabilidad y aprendizaje continuo · Gestión de incidentes y análisis de causa raíz · Feedback directo y respetuoso · Delegación y distribución efectiva del trabajo · Documentación y comunicación asíncrona · Gestión del conocimiento · Negociación de alcance y expectativas · Mejora continua de procesos y prácticas de ingeniería.</p>
       </div>
 
       <!-- Education -->
@@ -493,15 +527,26 @@
       <!-- Certifications -->
       <div class="section certifications">
         <h2 class="section-title">Cursos y Certificaciones</h2>
-        <ul>
+        <ul class="course-list">
           <li>Gestión de sistemas de seguridad informática - Desoft</li>
           <li>Visual Basic básico - Desoft</li>
           <li>C# Básico - Desoft</li>
+          <li>Vue.js: De cero a experto - Udemy</li>
+          <li>AWS Certified Solutions Architect Associate - Udemy</li>
+          <li>Docker Essentials - Udemy</li>
+          <li>Build AI Agents with MCP - Model Context Protocol - TS/PY - Udemy</li>
+          <li>Unit Testing for TypeScript &amp; Node.js Developers with Jest - Udemy</li>
+          <li>Serverless en Español con AWS y Serverless Framework - Udemy</li>
+          <li>AWS &amp; TypeScript Masterclass - CDK, Serverless, React - Udemy</li>
+          <li>TypeScript for Developers - Udemy</li>
+          <li>AWS CDK: Build a Serverless REST API with TypeScript &amp; NoSQL - Udemy</li>
+          <li>Scrum Developer: Estrategia Clave y Certificación CertiProf - Udemy</li>
+          <li>AWS Lambda/Serverless con Node.js - Udemy</li>
         </ul>
       </div>
 
       <!-- Languages -->
-      <div class="section">
+      <div class="section languages">
         <h2 class="section-title">Idiomas</h2>
         <div class="skills-grid" style="grid-template-columns: repeat(2, 1fr)">
           <div class="skill-category">

@@ -23,6 +23,21 @@ COMPETENCIAS TÉCNICAS
 - Calidad y entrega: PHPUnit, Jest, testing unitario e integración, CI/CD, Docker, Git, Scrum y mentoring técnico.
 - Frontend y complementos: JavaScript, Vue.js, Angular, React, HTML, CSS, Bootstrap y jQuery.
 
+HABILIDADES BLANDAS
+- Liderazgo técnico y mentoring.
+- Comunicación clara con perfiles técnicos y de negocio.
+- Colaboración y construcción de consenso.
+- Pensamiento analítico y resolución de problemas.
+- Priorización basada en impacto y riesgo.
+- Adaptabilidad y aprendizaje continuo.
+- Gestión de incidentes y análisis de causa raíz.
+- Feedback directo, respetuoso y orientado a la mejora.
+- Delegación y distribución efectiva del trabajo.
+- Documentación y comunicación asíncrona.
+- Gestión del conocimiento y reducción de dependencias individuales.
+- Negociación de alcance y expectativas.
+- Mejora continua de procesos y prácticas de ingeniería.
+
 PROYECTOS DESTACADOS
 - Plataformas contables distribuidas: parametrización contable, migraciones de APIs y datos, procesamiento de eventos, reportes y soporte operativo sobre AWS.
 - Modernización y arquitectura: microservicios PHP/Python, APIs REST, mensajería asíncrona, infraestructura cloud, cargas históricas, eliminación lógica e idempotencia.

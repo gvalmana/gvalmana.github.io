@@ -22,7 +22,7 @@
       .container {
         max-width: 210mm;
         margin: 0 auto;
-        padding: 8mm;
+        padding: 5mm;
       }
 
       /* Header */
@@ -187,12 +187,30 @@
       .course-list {
         columns: 3;
         column-gap: 20px;
-        font-size: 7.5pt;
+        font-size: 6.5pt;
+        line-height: 1.1;
       }
 
       .course-list li {
         break-inside: avoid;
         margin-bottom: 1px;
+      }
+
+      .soft-skills-text {
+        font-size: 7.5pt;
+        line-height: 1.25;
+      }
+
+      .languages .skills-grid {
+        gap: 5px;
+      }
+
+      .languages .skill-category {
+        padding: 4px;
+      }
+
+      .languages .skill-category p {
+        font-size: 7pt;
       }
 
       .certifications li {
@@ -218,7 +236,7 @@
 
       @page {
         size: A4;
-        margin: 6mm;
+        margin: 4mm;
       }
     </style>
   </head>
@@ -471,6 +489,11 @@
         </ul>
       </div>
 
+      <div class="section">
+        <h2 class="section-title">Habilidades blandas</h2>
+        <p class="soft-skills-text">Liderazgo técnico y mentoring · Comunicación clara con perfiles técnicos y de negocio · Colaboración y construcción de consenso · Pensamiento analítico y resolución de problemas · Priorización basada en impacto y riesgo · Adaptabilidad y aprendizaje continuo · Gestión de incidentes y análisis de causa raíz · Feedback directo y respetuoso · Delegación y distribución efectiva del trabajo · Documentación y comunicación asíncrona · Gestión del conocimiento · Negociación de alcance y expectativas · Mejora continua de procesos y prácticas de ingeniería.</p>
+      </div>
+
       <!-- Education -->
       <div class="section">
         <h2 class="section-title">Formación Académica</h2>
@@ -523,7 +546,7 @@
       </div>
 
       <!-- Languages -->
-      <div class="section">
+      <div class="section languages">
         <h2 class="section-title">Idiomas</h2>
         <div class="skills-grid" style="grid-template-columns: repeat(2, 1fr)">
           <div class="skill-category">

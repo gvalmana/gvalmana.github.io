@@ -22,6 +22,21 @@ TECHNICAL SKILLS
 - Reliability and operations: idempotency, retries, backoff, reprocessing, feature flags, observability, and operational support.
 - Delivery and quality: PHPUnit, Jest, unit and integration testing, CI/CD, Docker, Git, Scrum, and technical mentoring.
 
+PROFESSIONAL STRENGTHS
+- Technical leadership and mentoring.
+- Clear communication with technical and business stakeholders.
+- Collaboration and consensus building.
+- Analytical thinking and problem solving.
+- Impact- and risk-based prioritization.
+- Adaptability and continuous learning.
+- Incident management and root-cause analysis.
+- Direct, respectful, improvement-oriented feedback.
+- Delegation and effective work distribution.
+- Documentation and asynchronous communication.
+- Knowledge management and reduced individual dependencies.
+- Scope and expectation negotiation.
+- Continuous improvement of engineering practices.
+
 SELECTED PROJECTS
 - Distributed accounting platforms: accounting parametrization, API and data migrations, event processing, reporting, and AWS-based operational support.
 - Modernization and architecture: PHP/Python microservices, REST APIs, asynchronous messaging, cloud infrastructure, historical data loads, logical deletion, and idempotency.

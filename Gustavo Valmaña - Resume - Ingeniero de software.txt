@@ -80,6 +80,19 @@ IDIOMAS
 - Español: nativo.
 - Inglés: intermedio, con comprensión técnica y comunicación profesional.
 
+CURSOS Y FORMACIÓN COMPLEMENTARIA
+- Vue.js: De cero a experto - Udemy.
+- AWS Certified Solutions Architect Associate - Udemy.
+- Docker Essentials - Udemy.
+- Build AI Agents with MCP - Model Context Protocol - TS/PY - Udemy.
+- Unit Testing for TypeScript & Node.js Developers with Jest - Udemy.
+- Serverless en Español con AWS y Serverless Framework - Udemy.
+- AWS & TypeScript Masterclass - CDK, Serverless, React - Udemy.
+- TypeScript for Developers - Udemy.
+- AWS CDK: Build a Serverless REST API with TypeScript & NoSQL - Udemy.
+- Scrum Developer: Estrategia Clave y Certificación CertiProf - Udemy.
+- AWS Lambda/Serverless con Node.js - Udemy.
+
 PROYECTOS PÚBLICOS Y ACTIVIDAD TÉCNICA
 - GitHub: https://github.com/gvalmana
 - Perfil profesional: https://www.linkedin.com/in/gustavo.valma%C3%B1a-villalonga-9a5b95119/
